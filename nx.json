@@ -1,4 +1,9 @@
 {
+  "npmScope": "personality-test-monorepo",
+  "projects": {
+    "backend": "apps/backend",
+    "frontend": "apps/frontend"
+  },
   "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "defaultBase": "master",
